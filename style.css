@@ -13,6 +13,8 @@
     padding: 5px;
     background-color: transparent;
     border-radius: 10px;
+    
+    animation: animation 3s ease-in-out infinite;
 }
 
 .btn-tracks01 {
