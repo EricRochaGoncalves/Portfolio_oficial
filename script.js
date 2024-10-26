@@ -20,7 +20,11 @@ function toggleBodyOverflow(isActive) {
     document.body.style.overflow = isActive ? 'hidden' : '';
 }
 function showWelcomeMessage() {
-    document.body.innerHTML = "Bem-vindo! O portfólio ainda está em desenvolvimento. Caso tenha alguma dúvida; entre em contato comigo através do Git Hub.";
+    const messageDiv = document.createElement('div');
+    messageDiv.textContent = "Bem-vindo! O portfólio ainda está em desenvolvimento.";
+    messageDiv.style.textAlign = "center";
+    messageDiv.style.marginTop = "20px";
+    document.body.appendChild(messageDiv);
 }
 
 window.onload = showWelcomeMessage;
