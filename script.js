@@ -19,12 +19,3 @@ function closeMenuOutside(event) {
 function toggleBodyOverflow(isActive) {
     document.body.style.overflow = isActive ? 'hidden' : '';
 }
-function showWelcomeMessage() {
-    const messageDiv = document.createElement('div');
-    messageDiv.textContent = "Bem-vindo! O portfólio ainda está em desenvolvimento.";
-    messageDiv.style.textAlign = "center";
-    messageDiv.style.marginTop = "20px";
-    document.body.appendChild(messageDiv);
-}
-
-window.onload = showWelcomeMessage;
