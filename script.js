@@ -19,11 +19,8 @@ function closeMenuOutside(event) {
 function toggleBodyOverflow(isActive) {
     document.body.style.overflow = isActive ? 'hidden' : '';
 }
-function welcomeUser() {
-    const userName = prompt("Por favor, insira seu nome:");
-    if (userName) {
-        document.body.innerHTML = `Bem-vindo ao meu portfólio, ${userName}!<br>O portfólio ainda está em desenvolvimento.`;
-    }
+function showWelcomeMessage() {
+    document.body.innerHTML = "Bem-vindo! O portfólio ainda está em desenvolvimento. Caso tenha alguma dúvida; entre em contato comigo através do Git Hub.";
 }
 
-window.onload = welcomeUser;
+window.onload = showWelcomeMessage;
