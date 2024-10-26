@@ -19,3 +19,6 @@ function closeMenuOutside(event) {
 function toggleBodyOverflow(isActive) {
     document.body.style.overflow = isActive ? 'hidden' : '';
 }
+window.onload = function() {
+    alert("Bem-vindo ao meu portifólio! ( Este site ainda está em desenvolvimento, caso tenha dúvidas, entre em contato através do meu Git Hub! https://github.com/EricRochaGoncalves ");
+};
