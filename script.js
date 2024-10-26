@@ -21,7 +21,7 @@ function toggleBodyOverflow(isActive) {
 }
 
 function showDevelopmentMessage() {
-    alert("O portfólio ainda está em desenvolvimento, caso tenha alguma dúvida, favor acessar meu contato através do Git Hub https://github.com/EricRochaGoncalves");
+    alert("O portfólio ainda está em desenvolvimento, caso tenha alguma dúvida, favor acessar meu contato através do Git Hub https://github.com/EricRochaGoncalves.");
 }
 
 window.onload = showDevelopmentMessage;
