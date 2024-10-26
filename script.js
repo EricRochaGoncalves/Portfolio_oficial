@@ -19,9 +19,16 @@ function closeMenuOutside(event) {
 function toggleBodyOverflow(isActive) {
     document.body.style.overflow = isActive ? 'hidden' : '';
 }
-
 function showDevelopmentMessage() {
     alert("O portfólio ainda está em desenvolvimento, caso tenha alguma dúvida, favor acessar meu contato através do Git Hub https://github.com/EricRochaGoncalves.");
-}
 
-window.onload = showDevelopmentMessage;
+    // Solicita o nome do usuário
+    const userName = prompt("Por favor, digite seu nome:");
+
+    // Verifica se o usuário digitou um nome
+    if (userName) {
+        alert(`Bem vindo, ${userName}!`);
+    } else {
+        alert("Bem vindo!");
+    }
+}
