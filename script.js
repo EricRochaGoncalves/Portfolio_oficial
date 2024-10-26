@@ -19,3 +19,9 @@ function closeMenuOutside(event) {
 function toggleBodyOverflow(isActive) {
     document.body.style.overflow = isActive ? 'hidden' : '';
 }
+
+function showDevelopmentMessage() {
+    alert("O portfólio ainda está em desenvolvimento.");
+}
+
+window.onload = showDevelopmentMessage;
