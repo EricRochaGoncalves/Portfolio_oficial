@@ -24,7 +24,6 @@
     background-color: rgb(0, 255, 0);
     gap: 2px;
     border-bottom: 1px solid black;
-    animation: animation 3s ease-in-out infinite;
 }
 
 .btn-tracks03 {
