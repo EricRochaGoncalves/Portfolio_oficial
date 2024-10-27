@@ -740,12 +740,20 @@ body {
         height: 15%;
         border: red;
     }
+    .buttons a {
+     color: white;
+     }
+
 
     #button-contact {
         width: 100%;
         height: 15%;
+        color: white;
 
     }
+#button-desing a {
+color: white;
+}
 
     #nav.active {
         display: block;
