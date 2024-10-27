@@ -22,3 +22,8 @@ function toggleBodyOverflow(isActive) {
 window.onload = function() {
     alert("Bem-vindo ao meu portifólio! ( Este site ainda está em desenvolvimento, caso tenha dúvidas, entre em contato através do meu Git Hub! https://github.com/EricRochaGoncalves ");
 };
+<script>
+    window.onload = function() {
+        alert("Este portfólio ainda está em desenvolvimento. Agradecemos a sua compreensão!");
+    };
+</script>
