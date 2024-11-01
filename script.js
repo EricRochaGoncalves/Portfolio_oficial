@@ -38,4 +38,4 @@ function animateMenu(isActive) {
         nav.style.transform = 'translateY(-20px)';
     }
 }
-
+// Pra que tantos códigos, sendo que a vida não é programada, e as melhores coisas não têm lógica?
