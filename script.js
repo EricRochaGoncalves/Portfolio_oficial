@@ -1,4 +1,3 @@
-
 const btnMobile = document.getElementById("btn-mobile");
 btnMobile.addEventListener('click', toggleMenu);
 document.addEventListener('click', closeMenuOutside);
@@ -39,3 +38,4 @@ function animateMenu(isActive) {
         nav.style.transform = 'translateY(-20px)';
     }
 }
+
