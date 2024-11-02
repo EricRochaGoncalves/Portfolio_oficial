@@ -16,7 +16,9 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
-
+#section-teste {
+  border: 1px solid red
+}
 #btn-mobile {
     display: none;
     width: 50px;
@@ -209,7 +211,8 @@ body {
     text-decoration: none;
     font-family: "Oswald", system-ui;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 .container-001 {
@@ -278,7 +281,7 @@ body {
     color: white;
     font-family: "Oswald", system-ui;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .intro-text {
@@ -293,7 +296,7 @@ body {
 
 .intro-text p {
     color: white;
-    font-size: 30px;
+    font-size: 13px;
     font-family: "Oswald", system-ui;
 }
 
@@ -312,7 +315,6 @@ body {
     height: 60%;
     background-color: rgb(3, 188, 3);
     box-shadow: 0px 0px 10px rgb(0, 255, 0);
-    border-radius: 3px;
     justify-content: center;
     align-items: center;
     animation: animation 3s ease-in-out infinite;
