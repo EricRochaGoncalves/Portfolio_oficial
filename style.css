@@ -16,9 +16,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
-#section-teste {
-  border: 1px solid red
-}
 #btn-mobile {
     display: none;
     width: 50px;
@@ -373,13 +370,14 @@ body {
     animation: animation3 10s linear infinite;
     right: 13px;
     left: 2px;
+    background-color: black;
 }
 
 .container2 {
     position: relative;
     width: 350px;
     height: 200px;
-
+   background-color: black;
 }
 
 .container:hover .flip {
