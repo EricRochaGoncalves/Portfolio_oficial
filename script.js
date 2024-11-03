@@ -1,25 +1,14 @@
 const btnMobile = document.getElementById("btn-mobile");
-btnMobile.addEventListener('click', toggleMenu);
-document.addEventListener('click', closeMenuOutside);
+const nav = document.getElementById("nav");
 
-function toggleMenu() {
-    const nav = document.getElementById('nav');
-    nav.classList.toggle('active');
-    animateMenu(nav.classList.contains('active'));
-    toggleBodyOverflow(nav.classList.contains('active'));
-}
+btnMobile.addEventListener('click', () => {
+    const isActive = nav.classList.toggle('active');
+    document.body.style.overflow = isActive ? 'hidden' : '';
+});
 
-function closeMenuOutside(event) {
-    const nav = document.getElementById('nav');
+document.addEventListener('click', (event) => {
     if (!btnMobile.contains(event.target) && !nav.contains(event.target)) {
         nav.classList.remove('active');
-        animateMenu(false);
-        toggleBodyOverflow(false);
+        document.body.style.overflow = '';
     }
-}
-
-function toggleBodyOverflow(isActive) {
-    document.body.style.overflow = isActive ? 'hidden' : '';
-}
-
-// Pra que tantos códigos, sendo que a vida não é programada, e as melhores coisas não têm lógica?
+});
