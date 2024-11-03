@@ -25,11 +25,8 @@ body {
     border-radius: 10px;
     border: transparent;
 }
-#btn-mobile::hover {
-    background-color: blue;
-    
-}
-/* Footer */
+
+
 
 
 .btn-tracks01 {
@@ -586,146 +583,10 @@ body {
     transition: 1s;
 }
 
-.roda-pe {
-    display: flex;
-    width: 100%;
-    height: 50vh;
-    background-color: rgba(0, 255, 0, 0.39);
-    justify-content: center;
-}
-
-.quick-links {
-    display: flex;
-    width: 20%;
-    height: 100%;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    border-right: 1px solid green;
-
-}
-
-.links {
-    display: flex;
-    width: 100%;
-    height: 25%;
-    border-bottom: 1px solid green;
-
-
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#links {
-    display: flex;
-    width: 70%;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#links a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: "Oswald", system-ui;
-}
-
-#links :hover {
-    text-decoration: underline;
-}
-
-.links-h1 {
-    display: flex;
-    width: 70%;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.links-h1 h1 {
-    color: rgb(0, 0, 0);
-    font-family: "Oswald", system-ui;
-    font-size: 17px;
-}
-
-.links-sbl {
-    display: flex;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: 1px solid green;
-    justify-content: center;
-    align-items: center;
-}
-
-.links-sbl img {
-    width: 100%;
-    height: 100%;
-}
-
-.pagina-02-rodape {
-    display: flex;
-    width: 100%;
-    height: 20%;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
-.links {
-    display: flex;
-    width: 100%;
-    height: 15%;
-    border: transparent;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2px;
-}
-
-.link-rdp {
-    display: flex;
-    width: 100%;
-    height: 80%;
-    border: transparent;
-    flex-wrap: wrap;
-}
-
-.links a {
-    color: white;
-    font: var(--fonte-dominante);
-    text-decoration: none;
-
-}
-
-.links p {
-    color: white;
-    font: var(--fonte-dominante);
-    font-size: 14px;
-}
-
-.pagina-02-rodape h1 {
-    color: white;
-    font-size: 80px;
-    font: var(--fonte-dominante);
-}
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
     #btn-mobile {
         display: block;
         left: 100%;
-
-
-
     }
 
     .rodape {
@@ -736,19 +597,19 @@ body {
         display: none;
         position: fixed;
         width: 100%;
-        height: 100%;
+        height: 60%;
         top: 70px;
         right: 0px;
         z-index: 1;
         flex-wrap: wrap;
         overflow: hidden;
         justify-content: space-around;
+        opacity: 0;
     }
 
     .buttons {
         width: 100%;
-        height: 15%;
-        border: red;
+        height: 30%;
     }
     .buttons a {
      color: white;
@@ -761,14 +622,11 @@ body {
         color: white;
 
     }
-#button-desing a {
-color: white;
-}
 
     #nav.active {
         display: block;
         justify-content: center;
-        transition: 2ss;
+        opacity: 1;
     }
 
 
