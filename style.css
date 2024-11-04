@@ -374,7 +374,8 @@ body {
     position: relative;
     width: 350px;
     height: 200px;
-   background-color: black;
+
+   background-color: black;
 }
 
 .container:hover .flip {
@@ -772,7 +773,6 @@ body {
     align-items: center;
     background: transparent;
     padding: 20px;
-    border
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border: 1px solid green;
@@ -789,7 +789,7 @@ body {
 
 .typing {
     font-family: 'PressStart2P', monospace;
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     white-space: nowrap;
     overflow: hidden;
