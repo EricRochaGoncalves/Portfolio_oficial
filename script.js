@@ -12,3 +12,16 @@ document.addEventListener('click', (event) => {
         document.body.style.overflow = '';
     }
 });
+// Exibir o card ao carregar a página
+window.onload = function() {
+    document.getElementById("cardOverlay").style.display = "flex";
+};
+
+document.getElementById('cardOverlay').addEventListener('click', function(event) {
+    const card = document.querySelector('.card');
+
+    // Verifica se o clique foi fora do card
+    if (!card.contains(event.target)) {
+        this.style.display = 'none'; // Oculta o card-overlay
+    }
+});
