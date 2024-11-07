@@ -1,47 +1,285 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo do Pega-Pega</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  
+    <script src="https://kit.fontawesome.com/1b96cfacfc.js" crossorigin="anonymous"></script>
+    
+    <link rel="shortcut icon" href="./img/compass-regular.svg">
+    <title>Eric Gonçalves.</title>
 </head>
+<!-- Este código pode apresentar alguns erros. Se você encontrar alguma dificuldade ou tiver dúvidas, sinta-se à vontade para entrar em contato para obter assistência.
+<!--
+Se você estiver lendo isso, parabéns! Este portfólio foi feito por um pré-dev júnior. Então, se você encontrar alguns erros de estrutura ou sintaxe, não se preocupe, são apenas os meus "toques especiais". Mas calma, nada muito grave, porque estou sempre correndo atrás da evolução. :)
+-->
+
+<!--
+E se você está pensando em fazer um site igual a esse, aqui vai uma dica: use uma boa fonte de design e estrutura antes de tentar reproduzir isso aqui. Sério, vai por mim!
+-->
+
+<!--
+E, por favor, não se deixe enganar pelos meus erros iniciais. Estou apenas criando um novo estilo chamado "caos criativo". É uma tendência que ainda não pegou, mas quem sabe um dia! ♤
+-->
+ -->
+<!-- Perguntas já respondidas -->
+
+<!--
+1. "Por que você decidiu fazer este portfólio?"
+   Resposta: Porque, afinal, quem não quer mostrar suas habilidades de programação, mesmo que sejam um pouco (ou muito) imperfeitas? 
+
+2. "Quais tecnologias você usou para criar este site?"
+   Resposta: Um pouco de HTML, CSS e um toque de JavaScript... e muita coragem para enfrentar o que eu não sei!
+
+3. "Você pretende continuar melhorando suas habilidades de desenvolvimento?"
+   Resposta: Claro! Estou sempre em busca de evolução. Afinal, ninguém quer ficar preso no nível júnior para sempre, não é mesmo?
+-->
+<!--
+4. "Por que você somente usa linguagem pura em seus projetos?"
+   Resposta: Porque para mim é mais dinâmico, mais rápido e organizado. Afinal, quem precisa de frameworks quando você pode se divertir com a simplicidade?
+-->
+
 <body>
-    <div class="game-container">
-        <!-- Título do Jogo -->
-        <h1 class="game-title">Colete as vidas<i class="fa-regular fa-heart" style="color: #ffffff;"></i>...... ou pelo menos tente, hahahaha!</h1>
+    <div class="card-overlay" id="cardOverlay">
+    <div class="card">
+        <p class="typing">Este portfólio foi feito com muito carinho, mesmo que a estrutura e o visual <br> não estejam dignos <br> de um prêmio de design. <br> Agradeço pela paciência de ver meu trabalho iniciante <br>   – qualquer dúvida, é só chamar!
+   </p>
+        <p id="p_fechar_card"> Clique em qualquer lugar da tela para fechar o card </p>
+    </div>
+    </div>
+    <button id="btn-mobile">
+        <div class="btn-tracks01">
 
-        <!-- Exibição de Pontuação e Tempo -->
-        <div class="scoreboard">
-            <p id="score">Vidas  <i class="fa-regular fa-heart" style="color: #ffffff;"></i>: 1</p>
-            <p id="timer">Tempo: 5s</p>
         </div>
+        <div class="btn-tracks02">
+            
+        </div>
+        <div class="btn-tracks03">
+            
+        </div>
+    </button>
+    
 
-        <!-- Ponto a ser clicado -->
-        <div id="dot" class="dot hidden">
-          <i id="hearth"class="fa-regular fa-heart" style="color: #ffffff;"></i>
+    <nav class="nav" id="nav">
+        <div id="button-contact">
+            <a href="https://github.com/EricRochaGoncalves">Contato </a>
         </div>
-        <div id="dot" class="dot hidden">
-          <i id="hearth"class="fa-regular fa-heart" style="color: #ffffff;"></i>
+        <div class="buttons">
+            <a href="https://portf-lio-projetos.onrender.com">Projetos</a>
         </div>
+        <div class="buttons">
+            <a href="https://portf-lio-02.onrender.com">Habilidades</a>
+        </div>
+        <div class="buttons">
+            <a href="https://portf-lio-details.onrender.com">Sobre</a>
+        </div>
+        
+      
+    </nav>
 
-        <!-- Tela de Fim de Jogo -->
-        <div id="gameOver" class="game-over hidden">
-            <h2>Fim de Jogo!</h2>
-            <p>Pontuação Final: <span id="finalScore">0</span></p>
-            <button id="restartBtn">Você morreu ...EU AVISEI! mas ..por que não tentar novamente?</button>
+    <div class="container-001">
+        <div class="intro">
+            <div id="intro">
+                <div class="name">
+                    <h1> Eric Rocha Gonçalves </h1>
+                </div>
+                <div class="intro-text">
+                    <p>Olá! Sou o Eric, um desenvolvedor de 18 anos,<br> apaixonado por tecnologia e sempre buscando
+                        aprender.  Gosto de resolver problemas de formas simples e diretas, criando soluções
+                        eficientes e escrevendo códigos limpos.  Meu objetivo é melhorar a cada projeto e entregar o
+                        melhor resultado possível.</p>
+                </div>
+                <div class="intro-buttons">
+                    <div id="button">
+                        <a href="https://portf-lio-02.onrender.com">Vamos começar</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <!-- Botão de Iniciar -->
-        <button id="startBtn" class="start-btn">Você não durará muito ...mas é você quem sabe, CRIANÇA!! </button>
+        <div class="foto">
+            <div id="foto">
+                <img src="./img/eric-removebg-preview.png" alt="">
+            </div>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <div class="container-002">
+        <div class="minhas-habilidades">
+            <h1> ALGUMAS DAS MINHAS HABILIDADES.</h1>
+        </div>
+        <div class="container-cards">
+            <div class="container">
+                <div class="flip">
+                    <div class="frente">
+                        <div class="card-frente01">
+                            <div class="frente-01-img">
+                                <img src="./img/html-removebg-preview (1).png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-frente02">
+                            <h1>Estruturas WEB dinâmicas & completas com HTML5</h1>
+                        </div>
+                    </div>
+                    <div class="tras">
+                        <div class="card-tras-02-01">
+                            <div class="frente-01-img">
+                                <img src="./img/html-removebg-preview (1).png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-tras-02-02">
+                            <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web.
+                                <br>Documentos HTML podem ser interpretados por navegadores. <br> A tecnologia é fruto
+                                da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação
+                                estruturada de hipermídia e conteúdo baseado em tempo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="flip">
+                    <div class="frente">
+                        <div class="card-frente01">
+                            <div id="frente-01-img">
+                                <img src="./img/css-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-frente02">
+                            <h1>Sites personalizados e responsivos a maioria <br>
+                                dos dispositivos.</h1>
+                        </div>
+                    </div>
+                    <div class="tras">
+                        <div class="card-tras-02-01">
+                            <div id="frente-01-img">
+                                <img src="./img/css-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-tras-02-02">
+                            <p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos
+                                escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da
+                                representação visual do site.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="flip">
+                    <div class="frente">
+                        <div class="card-frente01">
+                            <div id="frente-01-img">
+                                <img src="./img/JS.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-frente02">
+                            <h1>Interações do site com o usuário com a <br>
+                                a linguagem de programação Java Script.</h1>
+                        </div>
+                    </div>
+                    <div class="tras">
+                        <div class="card-tras-02-01">
+                            <div id="frente-01-img">
+                                <img src="./img/JS.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-tras-02-02">
+                            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto
+                                nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o
+                                JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="flip2">
+                    <div class="frente2">
+                        <div class="card-frente01">
+                            <div id="frente-01-img-bd">
+                                <img src="./img/mysql_87a2317566.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-frente02">
+                            <h1>Bancos de dados funcionais e completos com My SQL.</h1>
+                        </div>
+                    </div>
+                    <div class="tras2">
+                        <div class="card-tras-02-01">
+                            <div id="frente-01-img-bd">
+                                <img src="./img/mysql_87a2317566.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-tras-02-02">
+                            <p>O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como
+                                interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais
+                                populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="flip2">
+                    <div class="frente2">
+                        <div class="card-frente01">
+                            <div id="frente-01-img-bd">
+                                <img src="./img/desing.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-frente02">
+                            <h1>Desings personalizados e responsivos em <br> maioria dos dispositivos.</h1>
+                        </div>
+                    </div>
+                    <div class="tras2">
+                        <div class="card-tras-02-01">
+                            <div id="frente-01-img-bd">
+                                <img src="./img/desing.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-tras-02-02">
+                            <p>Design é a idealização, criação, desenvolvimento, configuração, concepção, elaboração e
+                                especificação de produtos, normalmente produzidos industrialmente ou por meio de sistema
+                                de produção em série que demanda padronização dos componentes e desenho normalizado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="flip2">
+                    <div class="frente2">
+                        <p>Gostou de alguma das minhas habilidades ou deseja me conhecer melhor?</p>
+                    </div>
+                    <div class="tras2">
+                        <div class="cards-buttons">
+                            <a href="https://portf-lio-details.onrender.com">Mais sobre mim e portifólio</a>
+                        </div>
+                        <div class="cards-buttons">
+                            <a href="https://github.com/EricRochaGoncalves">Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+</section>
+
+<!--
+Então, ao revisar o código, percebi que a estrutura está com algum erro de fechamento. Não tenho certeza do que exatamente aconteceu, mas peço desculpas por qualquer confusão que isso possa ter causado. A verdade é que estou aprendendo e, como todos, cometo erros no caminho. Espero que você possa ter um pouco de paciência comigo enquanto continuo a aprimorar minhas habilidades. Cada dia é uma nova oportunidade para aprender e crescer!
+
+A vida é cheia de `div`s não fechadas, não é mesmo? Quanto a essa parte do código, decidi que não vou continuar mexendo, pois não vejo necessidade. A maioria do site já esclarece bem o que faço de forma detalhada, e acho que isso é o mais importante!
+
+Ah, e não esqueça que há outras páginas do meu portfólio que podem ser acessadas pelo botão de navegação (se estiver no celular) ou pela barra de navegação (se estiver no PC). Lá você encontrará as outras páginas e meu contato. Fique à vontade para explorar!
+-->
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
-
-
-
-
-
+            
