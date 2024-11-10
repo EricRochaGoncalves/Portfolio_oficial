@@ -25,3 +25,6 @@ document.getElementById('cardOverlay').addEventListener('click', function(event)
         this.style.display = 'none'; // Oculta o card-overlay
     }
 });
+window.onload = function() {
+  sessionStorage.setItem('veioDaPrincipal', 'true');
+};
