@@ -12,16 +12,24 @@ document.addEventListener('click', (event) => {
         document.body.style.overflow = '';
     }
 });
+
 // Exibir o card ao carregar a página
 window.onload = function() {
-    document.getElementById("cardOverlay").style.display = "flex";
+    const cardOverlay = document.getElementById("cardOverlay");
+    cardOverlay.style.display = "flex";
 };
 
+// Detecção de clique fora do card
 document.getElementById('cardOverlay').addEventListener('click', function(event) {
     const card = document.querySelector('.card');
 
     // Verifica se o clique foi fora do card
     if (!card.contains(event.target)) {
-        this.style.display = 'none'; // Oculta o card-overlay
+        card.classList.add('fade-out'); // Adiciona a animação de fade-out
+
+        // Espera a animação acabar antes de ocultar o card
+        setTimeout(() => {
+            this.style.display = 'none'; // Oculta o card-overlay
+        }, 500); // Tempo igual ao da animação
     }
 });
