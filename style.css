@@ -717,6 +717,22 @@ body {
         padding: 10px 10px;
         gap: 20px;
     }
+.card {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    backdrop-filter: blur(5px);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid green;
+    width: 300px;
+    height: 300px;
+}
 }
 
 @media screen and (max-width: 272px) {
