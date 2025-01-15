@@ -25,6 +25,7 @@ body {
     background-color: transparent;
     border-radius: 10px;
     border: transparent;
+    left: 150px;
 }
 
 
@@ -74,6 +75,8 @@ body {
     justify-content: space-evenly;
     align-items: center;
     backdrop-filter: blur(10px);
+    position: absolute;
+    z-index: 1;
 }
 
 #button-contact {
@@ -84,21 +87,30 @@ body {
     align-items: center;
     font-family: Roboto;
     border-right: 1px solid white;
-    letter-spacing: 1px;
+    
+    position: relative; /* Necessário para posicionar o pseudo-elemento */
 }
 
-
-
-
-.nav :hover {
+#button-contact a {
     color: white;
-    transition: 0.5s;
+    text-decoration: none;
+    font-family: "Oswald", system-ui;
+    position: relative; /* Necessário para o hover funcionar no elemento */
 }
 
-#button-contact :hover {
-    color: white;
-    transition: 0.5s;
+#button-contact a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Localização da linha */
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(0, 255, 0); /* Cor da linha */
+    transition: width 0.5s ease-in-out;
+}
 
+#button-contact a:hover::after {
+    width: 100%; /* A linha cresce ao passar o mouse */
 }
 
 @keyframes animation {
@@ -183,14 +195,7 @@ body {
 
 }
 
-#button-contact a {
-    color: white;
-    text-decoration: none;
-    font-family: "Oswald", system-ui;
-}
-#button-contact  :hover{
-    color: rgb(0, 255, 0);
-}
+
 
 .buttons {
     display: flex;
@@ -199,6 +204,7 @@ body {
     border-radius: 5px;
     justify-content: center;
     align-items: center;
+    position: relative; /* Necessário para o pseudo-elemento funcionar */
 }
 
 .buttons a {
@@ -207,7 +213,28 @@ body {
     font-family: "Oswald", system-ui;
     font-weight: 300;
     font-size: 15px;
-    letter-spacing: 1px;
+    
+    position: relative; /* Necessário para posicionar o pseudo-elemento */
+    transition: color 0.3s ease-in-out; /* Transição suave para mudança de cor */
+}
+
+.buttons a:hover {
+    color: rgb(0, 255, 0); /* Cor do texto ao passar o mouse */
+}
+
+.buttons a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Localização da linha animada */
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(0, 255, 0); /* Cor da linha */
+    transition: width 0.5s ease-in-out; /* Suavidade do efeito */
+}
+
+.buttons a:hover::after {
+    width: 100%; /* Linha cresce até 100% no hover */
 }
 
 .container-001 {
@@ -588,7 +615,7 @@ body {
 @media screen and (max-width: 768px) {
     #btn-mobile {
         display: block;
-        left: 100%;
+        
     }
 
     .rodape {
@@ -605,7 +632,6 @@ body {
     z-index: 1;
     flex-wrap: wrap;
     overflow: hidden;
-    justify-content: space-around;
     opacity: 0;
     transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Transição adicionada */
 }
@@ -630,7 +656,7 @@ body {
     justify-content: center;
     top: 70px; 
     opacity: 1;
-    border: 1px dashed rgba( 0, 255, 0);
+    
 }
 
     .container-001 {
@@ -717,22 +743,6 @@ body {
         padding: 10px 10px;
         gap: 20px;
     }
-.card {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    backdrop-filter: blur(5px);
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    border: 1px solid green;
-    width: 300px;
-    height: 300px;
-}
 }
 
 @media screen and (max-width: 272px) {
@@ -798,6 +808,7 @@ body {
     color: white;
     font-family: 'PressStart2P', monospace;
     letter-spacing: 1px;
+    line-height: 20px;
     
 }
 
@@ -808,6 +819,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
+    line-height: 20px;
 }
 
 
