@@ -387,16 +387,30 @@ body {
     flex-wrap: wrap;
 }
 
+
+
+/* Animação fade-in com movimento */
+@keyframes fadeInSlide {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px); /* Começa à esquerda */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Termina na posição original */
+    }
+}
+
 .container {
     display: flex;
     position: relative;
     width: 350px;
     height: 200px;
-    animation: animation3 10s linear infinite;
-    right: 13px;
-    left: 2px;
     background-color: black;
+    
+    
 }
+
 
 .container2 {
     position: relative;
@@ -404,6 +418,8 @@ body {
     height: 200px;
 
    background-color: black;
+    transition: opacity 1s ease-out, transform 1s ease-out; 
+    
 }
 
 .container:hover .flip {
@@ -803,6 +819,12 @@ body {
     border: 1px solid green;
     width: 85%;
     height: 300px;
+    opacity: 1; /* Inicia com opacidade 1 */
+    transition: opacity 0.5s ease-out; /* Define o tempo e o estilo da transição */
+}
+
+.card.fade-out {
+    opacity: 0; /* Torna o card invisível */
 }
 #p_fechar_card {
     font-size: 10px;
