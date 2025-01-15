@@ -805,7 +805,7 @@ body {
     height: 300px;
 }
 #p_fechar_card {
-    font-size: 13px;
+    font-size: 10px;
     color: white;
     font-family: 'PressStart2P', monospace;
     line-height: 20px; 
@@ -819,7 +819,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
-    line-height: 20px;
+    line-height: 15px;
     border-bottom: 1px solid white;
 }
 
