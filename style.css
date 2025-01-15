@@ -286,8 +286,8 @@ body {
     border: 2px solid black;
     border-top: 2px solid rgb(0, 255, 0);
     border-bottom: 2px solid rgb(0, 255, 0);
-    border-right: 2px solid transparent;
-    border-left: 2px solid transparent;
+    border-right: 2px solid rgb(0, 255, 0);
+    border-left: 2px solid rgb(0, 255, 0);
 }
 
 .name {
@@ -301,7 +301,7 @@ body {
 
 .name h1 {
     color: white;
-    font-family: "Oswald", system-ui;
+    font-family: "Arial", system-ui;
     font-weight: 600;
     font-size: 25px;
 }
@@ -784,6 +784,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    backdrop-filter: blur(5px);
     z-index: 1000;
 }
 
@@ -807,8 +808,7 @@ body {
     font-size: 13px;
     color: white;
     font-family: 'PressStart2P', monospace;
-    letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 20px; 
     
 }
 
@@ -820,6 +820,7 @@ body {
     overflow: hidden;
     text-align: center;
     line-height: 20px;
+    border-bottom: 1px solid white;
 }
 
 
