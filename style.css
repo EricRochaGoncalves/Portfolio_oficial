@@ -617,9 +617,9 @@ body {
 }
 
 .cards-buttons a {
-    color: darkgreen;
+    color: black;
     font-family: "Oswald", system-ui;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
 }
 
