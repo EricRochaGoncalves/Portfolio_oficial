@@ -817,8 +817,8 @@ body {
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border: 1px solid green;
-    width: 70%;
-    height: 300px;
+    width: 90%;
+    height: auto;
     opacity: 1; /* Inicia com opacidade 1 */
     transition: opacity 0.5s ease-out; /* Define o tempo e o estilo da transição */
 }
@@ -837,12 +837,12 @@ body {
 
 .typing {
     font-family: 'PressStart2P', monospace;
-    font-size: 10px;
+    font-size: 12px;
     color: white;
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
-    line-height: 15px;
+    line-height: 25px;
     border-bottom: 1px solid white;
 }
 
