@@ -817,7 +817,7 @@ body {
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border: 1px solid green;
-    width: 85%;
+    width: 70%;
     height: 300px;
     opacity: 1; /* Inicia com opacidade 1 */
     transition: opacity 0.5s ease-out; /* Define o tempo e o estilo da transição */
@@ -831,6 +831,7 @@ body {
     color: white;
     font-family: 'PressStart2P', monospace;
     line-height: 20px; 
+    
     
 }
 
