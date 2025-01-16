@@ -35,6 +35,7 @@ Você pode acessar o portfólio diretamente através do link na descrição do p
 
 Notas da atualização DEV III (3.0) - Janeiro de 2025
 
+___
 Melhoria na renderização gráfica:
 Otimizações implementadas para melhorar o carregamento do site, resultando em um aumento significativo no FPS e melhor experiência de navegação.
 
