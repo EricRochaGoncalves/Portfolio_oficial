@@ -1,13 +1,13 @@
 
 
-Meu Portfólio
+# Bem vindo ao meu portfólio profissional!
 
-Bem-vindo ao repositório do meu portfólio profissional! Este projeto foi criado para apresentar minhas habilidades, projetos e experiências de forma clara e organizada, com foco 100% no desenvolvimento front-end.
+Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para apresentar minhas habilidades, projetos e experiências de forma clara e organizada, com foco 100% no  *desenvolvimento front-end *.
 
 
 ---
 
-📄 Estrutura do Portfólio
+# 📄 Estrutura do Portfólio
 
 O portfólio é composto por 5 páginas principais:
 
@@ -35,13 +35,13 @@ Um espaço para facilitar o contato, com formulário e links para minhas redes s
 
 ---
 
-🌐 Acesse o Portfólio
+# 🌐 Acesse o Portfólio
 Você pode acessar o portfólio diretamente através do link na descrição do portfólio.
 
 
 ---
 
-Notas da atualização DEV III (3.0) - Janeiro de 2025
+# Notas da atualização DEV III (3.0) - Janeiro de 2025
 
 
 ---
