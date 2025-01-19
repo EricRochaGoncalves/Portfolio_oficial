@@ -1,4 +1,6 @@
-
+<div style="text-align: center;">
+  <img src="URL_DA_IMAGEM_AQUI" alt="Descrição da imagem" />
+</div>
 
 # Bem vindo ao meu portfólio profissional!
 
