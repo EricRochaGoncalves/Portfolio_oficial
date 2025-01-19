@@ -60,5 +60,53 @@ Um guia detalhado foi adicionado para orientar o usuário de forma clara e objet
 
 Atualizações na página de habilidades:
 Melhorias na estilização geral e na renderização gráfica, garantindo uma apresentação mais fluida e atrativa das informações, com ênfase na parte visual e interativa do desenvolvimento front-end.
+___
+
+# Possíveis Atualizações na Versão DEV IV
+
+1. Micro Sessões na Página de Projetos
+
+Objetivo: Organizar e exibir os projetos de maneira mais segmentada.
+
+Detalhes:
+
+Adicionar micro sessões para cada projeto, focando em diferentes aspectos como desenvolvimento, design e funcionalidades.
+
+Facilitar a navegação e compreensão do trabalho realizado em cada projeto.
+
+
+
+2. Guia Acima dos Cards na Página Inicial
+
+Objetivo: Explicar de forma rápida e objetiva com o que você trabalha.
+
+Detalhes:
+
+Adicionar um pequeno guia logo acima dos cards para informar os visitantes sobre suas áreas de atuação e as tecnologias utilizadas.
+
+A ideia é proporcionar uma visão clara e direta para quem acessa seu portfólio pela primeira vez.
+
+
+
+3. Uso de <details> e <summary> na Página Inicial
+
+Objetivo: Organizar e ocultar informações extras sem sobrecarregar visualmente.
+
+Detalhes:
+
+Implementar os elementos HTML <details> e <summary> para tornar o conteúdo expandível.
+
+O <summary> fornecerá uma visão geral, e o conteúdo dentro de <details> será mostrado ao ser clicado, ajudando a orientar o visitante sobre cada página sem ocupar espaço excessivo.
+
+
+
+Objetivo Geral das Atualizações
+
+Melhorar a clareza e acessibilidade do conteúdo sem comprometer a simplicidade e o design minimalista.
+
+Facilitar a navegação, organizando as informações de maneira intuitiva.
+
+Adicionar interatividade leve, sem sobrecarregar a experiência do usuário.
+
 
 
