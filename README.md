@@ -46,23 +46,23 @@ Você pode acessar o portfólio diretamente através do link na descrição do p
 
 ---
 
-Melhoria na renderização gráfica:
+1. Melhoria na renderização gráfica:
 Otimizações implementadas para melhorar o carregamento do site, resultando em um aumento significativo no FPS e em uma melhor experiência de navegação, com foco na parte visual e interatividade, características essenciais do meu trabalho front-end.
 
-Melhoria na acessibilidade:
+2.Melhoria na acessibilidade:
 Ajustes no design e no texto para garantir que qualquer pessoa consiga ler com clareza, incluindo usuários com dificuldades visuais, um aspecto importante do design inclusivo e da experiência do usuário, áreas em que sou especializado.
 
-Mudanças na estilização geral:
+3.Mudanças na estilização geral:
 Alterações realizadas tanto para aprimorar a acessibilidade quanto para trazer maior formalidade ao site, deixando-o mais profissional e visualmente agradável, reforçando minha especialização em front-end e design gráfico.
 
-Aprimoramento do card inicial:
+4. Aprimoramento do card inicial:
 Um guia detalhado foi adicionado para orientar o usuário de forma clara e objetiva, indicando onde ele deve ir para explorar o site de forma fluida, uma melhoria voltada para a experiência do usuário (UX).
 
-Atualizações na página de habilidades:
+5. Atualizações na página de habilidades e na página projetos:
 Melhorias na estilização geral e na renderização gráfica, garantindo uma apresentação mais fluida e atrativa das informações, com ênfase na parte visual e interativa do desenvolvimento front-end.
 ___
 
-# Possíveis Atualizações na Versão DEV IV
+# Possíveis Atualizações na Versão DEV IV (4.0)
 
 1. Micro Sessões na Página de Projetos
 
@@ -100,7 +100,7 @@ O <summary> fornecerá uma visão geral, e o conteúdo dentro de <details> será
 
 
 
-Objetivo Geral das Atualizações
+ # Objetivo Geral das Atualizações
 
 Melhorar a clareza e acessibilidade do conteúdo sem comprometer a simplicidade e o design minimalista.
 
