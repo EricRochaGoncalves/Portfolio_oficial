@@ -49,10 +49,10 @@ Você pode acessar o portfólio diretamente através do link na descrição do p
 1. Melhoria na renderização gráfica:
 Otimizações implementadas para melhorar o carregamento do site, resultando em um aumento significativo no FPS e em uma melhor experiência de navegação, com foco na parte visual e interatividade, características essenciais do meu trabalho front-end.
 
-2.Melhoria na acessibilidade:
+2. Melhoria na acessibilidade:
 Ajustes no design e no texto para garantir que qualquer pessoa consiga ler com clareza, incluindo usuários com dificuldades visuais, um aspecto importante do design inclusivo e da experiência do usuário, áreas em que sou especializado.
 
-3.Mudanças na estilização geral:
+3. Mudanças na estilização geral:
 Alterações realizadas tanto para aprimorar a acessibilidade quanto para trazer maior formalidade ao site, deixando-o mais profissional e visualmente agradável, reforçando minha especialização em front-end e design gráfico.
 
 4. Aprimoramento do card inicial:
