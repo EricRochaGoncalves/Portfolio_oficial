@@ -128,11 +128,13 @@ O summary fornecerá uma visão geral, e o conteúdo dentro de details será mos
 
  # Objetivo Geral das Atualizações
 
-Melhorar a clareza e acessibilidade do conteúdo sem comprometer a simplicidade e o design minimalista.
+![Objetivo Atualizações](https://img.shields.io/badge/Objetivo%20Atualiza%C3%A7%C3%B5es-4CAF50?style=flat-square&logo=sync&logoColor=white)
 
-Facilitar a navegação, organizando as informações de maneira intuitiva.
+1. Melhorar a clareza e acessibilidade do conteúdo sem comprometer a simplicidade e o design minimalista.
 
-Adicionar interatividade leve, sem sobrecarregar a experiência do usuário.
+2. Facilitar a navegação, organizando as informações de maneira intuitiva.
+
+3. Adicionar interatividade leve, sem sobrecarregar a experiência do usuário.
 
 
 
