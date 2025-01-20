@@ -6,6 +6,14 @@
 
 Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para apresentar minhas habilidades, projetos e experiências de forma clara e organizada, com foco 100% no  *desenvolvimento front-end *.
 
+---
+
+# Habilidades usadas nesse repositório
+
+![HTML](https://img.shields.io/badge/HTML-4CAF50?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-4CAF50?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-4CAF50?style=flat-square&logo=javascript&logoColor=white)
+![Edição de Imagens](https://img.shields.io/badge/Edi%C3%A7%C3%A3o%20de%20Imagens-4CAF50?style=flat-square&logo=photoshop&logoColor=white)
 
 ---
 
