@@ -108,7 +108,7 @@ Detalhes:
 
 Implementar os elementos HTML details e summary para tornar o conteúdo expandível.
 
-O summary fornecerá uma visão geral, e o conteúdo dentro de <details> será mostrado ao ser clicado, ajudando a orientar o visitante sobre cada página sem ocupar espaço excessivo.
+O summary fornecerá uma visão geral, e o conteúdo dentro de details será mostrado ao ser clicado, ajudando a orientar o visitante sobre cada página sem ocupar espaço excessivo.
 
 
 
