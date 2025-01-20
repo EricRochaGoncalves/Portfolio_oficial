@@ -121,10 +121,10 @@ body {
 
     25% {
         transform: translateY(-5px);
-        border-radius: 10px;
+        border-radius: 5px;
         transition: 0.2s;
         padding: 2px 2px;
-        box-shadow: 0px 0px 50px rgb(3, 255, 3);
+        box-shadow: 0px 0px 15px rgb(3, 255, 3);
     }
 
     50% {
@@ -468,7 +468,7 @@ body {
     border: 1px solid rgba(0, 255, 0, 0.365);
     background: transparent;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 0px 5px rgb(0, 255, 0);
 }
 
@@ -543,7 +543,7 @@ body {
     border: 1px solid rgba(0, 255, 0, 0.365);
     background: transparent;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 0px 5px rgb(0, 255, 0);
     flex-wrap: wrap;
     justify-content: center;
@@ -559,7 +559,7 @@ body {
 .tras {
     background: transparent;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 5px;
     transform: rotateY(180deg);
     border: 1px solid rgba(0, 255, 0, 0.365);
     box-shadow: 0px 0px 5px rgb(0, 255, 0);
@@ -596,7 +596,7 @@ body {
     display: flex;
     background: transparent;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 5px;
     transform: rotateX(180deg);
     border: 1px solid rgba(0, 255, 0, 0.365);
     justify-content: center;
@@ -796,11 +796,11 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.768);
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     z-index: 1000;
 }
 
@@ -816,7 +816,7 @@ body {
     padding: 20px;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    border: 1px solid green;
+    border: 2px solid green;
     width: 90%;
     height: auto;
     opacity: 1; /* Inicia com opacidade 1 */
