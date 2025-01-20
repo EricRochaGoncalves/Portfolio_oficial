@@ -74,6 +74,8 @@ ___
 
 # Possíveis Atualizações na Versão DEV IV (4.0)
 
+![Possíveis Atualizações](https://img.shields.io/badge/Poss%C3%ADveis%20Atualiza%C3%A7%C3%B5es-F5F5DC?style=flat-square&logo=sync&logoColor=white&textColor=000000)
+
 1. Micro Sessões na Página de Projetos
 
 Objetivo: Organizar e exibir os projetos de maneira mais segmentada.
