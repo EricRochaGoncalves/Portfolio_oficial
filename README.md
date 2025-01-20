@@ -8,6 +8,8 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para aprese
 
 ---
 
+# Habilidades usadas neste repositório
+
 ![HTML](https://img.shields.io/badge/HTML-4CAF50?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-4CAF50?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-4CAF50?style=flat-square&logo=javascript&logoColor=white)
@@ -16,6 +18,14 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para aprese
 ![Render](https://img.shields.io/badge/Render-4CAF50?style=flat-square&logo=render&logoColor=white)
 
 ---
+
+Softwere skills
+
+![Atualizações Contínuas](https://img.shields.io/badge/Atualiza%C3%A7%C3%B5es%20Cont%C3%ADnuas-4CAF50?style=flat-square&logo=sync&logoColor=white)
+![Páginas Detalhadas](https://img.shields.io/badge/P%C3%A1ginas%20Detalhadas-4CAF50?style=flat-square&logo=html5&logoColor=white)
+![Design Responsivo](https://img.shields.io/badge/Design%20Responsivo-4CAF50?style=flat-square&logo=css3&logoColor=white)
+![SEO e Acessibilidade](https://img.shields.io/badge/SEO%20e%20Acessibilidade-4CAF50?style=flat-square&logo=google&logoColor=white)
+![Otimização de Performance](https://img.shields.io/badge/Otimiza%C3%A7%C3%A3o%20de%20Performance-4CAF50?style=flat-square&logo=rocket&logoColor=white)
 
 # 📄 Estrutura do Portfólio
 
