@@ -59,6 +59,9 @@ Um espaço para facilitar o contato, com formulário e links para minhas redes s
 
 
 ![Status do Repositório](https://img.shields.io/github/commit-activity/m/EricRochaGoncalves/PortfolioDev?style=flat-square&logo=github&logoColor=white)
+
+
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=EricRochaGoncalves&theme=github)
 ---
 
 # 🌐 Acesse o Portfólio
