@@ -51,7 +51,11 @@ Uma página dedicada a contar um pouco mais sobre minha trajetória profissional
 Um espaço para facilitar o contato, com formulário e links para minhas redes sociais, permitindo que você se conecte facilmente comigo para futuros projetos front-end.
 
 
+---
 
+# Status do repositório
+
+![Atualizações Contínuas](https://img.shields.io/github/commit-activity/m/EricRochaGoncalves/RepositorioDev?style=flat-square&logo=github&logoColor=white)
 
 ---
 
