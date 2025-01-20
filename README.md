@@ -50,7 +50,7 @@ Uma página dedicada a contar um pouco mais sobre minha trajetória profissional
 5. Contato
 Um espaço para facilitar o contato, com formulário e links para minhas redes sociais, permitindo que você se conecte facilmente comigo para futuros projetos front-end.
 
-
+![Página Inicial](https://img.shields.io/badge/P%C3%A1gina_Inicial-28A745?style=for-the-badge&logo=home&logoColor=white) ![Habilidades](https://img.shields.io/badge/Habilidades-28A745?style=for-the-badge&logo=brain&logoColor=white) ![Projetos](https://img.shields.io/badge/Projetos-28A745?style=for-the-badge&logo=gitlab&logoColor=white) ![Sobre Mim](https://img.shields.io/badge/Sobre_Mim-28A745?style=for-the-badge&logo=user&logoColor=white)
 ---
 
 # Status do repositório
