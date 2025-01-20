@@ -19,7 +19,7 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para aprese
 
 ---
 
-Softwere skills
+# Softwere skills
 
 ![Atualizações Contínuas](https://img.shields.io/badge/Atualiza%C3%A7%C3%B5es%20Cont%C3%ADnuas-4CAF50?style=flat-square&logo=sync&logoColor=white)
 ![Páginas Detalhadas](https://img.shields.io/badge/P%C3%A1ginas%20Detalhadas-4CAF50?style=flat-square&logo=html5&logoColor=white)
