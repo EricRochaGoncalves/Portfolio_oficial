@@ -57,6 +57,8 @@ Um espaço para facilitar o contato, com formulário e links para minhas redes s
 
 ![Atualizações Contínuas](https://img.shields.io/github/commit-activity/m/EricRochaGoncalves/PortfolioDev?style=flat-square&logo=github&logoColor=white)
 
+
+![Status do Repositório](https://img.shields.io/github/commit-activity/m/EricRochaGoncalves/PortfolioDev?style=flat-square&logo=github&logoColor=white)
 ---
 
 # 🌐 Acesse o Portfólio
