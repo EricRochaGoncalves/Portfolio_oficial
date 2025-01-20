@@ -40,7 +40,7 @@ Uma página que descreve os projetos que desenvolvo, destacando minha atuação 
 
 
 3. Habilidades
-Uma lista detalhada das minhas principais habilidades técnicas e ferramentas que utilizo no front-end, incluindo HTML5, CSS3, JavaScript, animações, responsividade e otimização de performance. Exemplos práticos de como utilizo essas ferramentas para criar sites visualmente impactantes e funcionais.
+Uma descrição detalhada das minhas principais habilidades técnicas e ferramentas que utilizo no front-end, incluindo HTML5, CSS3, JavaScript, animações, responsividade e otimização de performance. Exemplos práticos de como utilizo essas ferramentas para criar sites visualmente impactantes e funcionais.
 
 
 4. Sobre Mim
@@ -48,7 +48,7 @@ Uma página dedicada a contar um pouco mais sobre minha trajetória profissional
 
 
 5. Contato
-Um espaço para facilitar o contato, com formulário e links para minhas redes sociais, permitindo que você se conecte facilmente comigo para futuros projetos front-end.
+Um espaço para facilitar o contato, permitindo que você se conecte facilmente comigo para futuros projetos front-end.
 
 ![Página Inicial](https://img.shields.io/badge/P%C3%A1gina_Inicial-28A745?style=for-the-badge&logo=home&logoColor=white) ![Habilidades](https://img.shields.io/badge/Habilidades-28A745?style=for-the-badge&logo=brain&logoColor=white) ![Projetos](https://img.shields.io/badge/Projetos-28A745?style=for-the-badge&logo=gitlab&logoColor=white) ![Sobre Mim](https://img.shields.io/badge/Sobre_Mim-28A745?style=for-the-badge&logo=user&logoColor=white)
 ---
