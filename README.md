@@ -51,9 +51,9 @@ Você pode acessar o portfólio diretamente através do link na descrição do p
 
 ---
 
-# Notas da atualização DEV III (3.0) - Janeiro de 2025
+# Notas da atualização DEV III (3.0) - Janeiro de 2025.
 
-![Atualizações](https://img.shields.io/badge/Atualiza%C3%A7%C3%B5es-FFD700?style=flat-square&logo=sync&logoColor=white)
+![Atualizações](https://img.shields.io/badge/Atualiza%C3%A7%C3%B5es-FFD700?style=flat-square&logo=sync&logoColor=white&textColor=ffffff)
 ---
 
 1. Melhoria na renderização gráfica:
