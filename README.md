@@ -55,7 +55,7 @@ Um espaço para facilitar o contato, com formulário e links para minhas redes s
 
 # Status do repositório
 
-![Atualizações Contínuas](https://img.shields.io/github/commit-activity/m/EricRochaGoncalves/RepositorioDev?style=flat-square&logo=github&logoColor=white)
+![Atualizações Contínuas](https://img.shields.io/github/commit-activity/m/EricRochaGoncalves/PortfolioDev?style=flat-square&logo=github&logoColor=white)
 
 ---
 
