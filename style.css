@@ -281,7 +281,7 @@ body {
 
 #foto img {
     border-radius: 20%;
-    background: linear-gradient(to right, rgb(85, 85, 85), white);
+    background: rgba(144, 238, 144, 0.6); /* Verde suave com transparência */;
     border: 2px solid black;
     border-top: 2px solid rgb(0, 255, 0);
     border-bottom: 2px solid rgb(0, 255, 0);
@@ -357,18 +357,65 @@ body {
 .container-002 {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: cente
 }
 
 .minhas-habilidades {
     display: flex;
     width: 100%;
-    height: 16%;
+    height: 30%;
     border: transparent;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+details {
+    width: 100%;               /* Ocupa toda a largura disponível */
+    background-color: #1c1c1c; /* Fundo do detalhe para diferenciar do fundo geral */
+    border: 1px solid #333;    /* Borda sutil para destacar */
+    border-radius: 5px;        /* Bordas arredondadas */
+    margin: 10px 0;            /* Espaçamento entre os itens */
+    padding: 10px;             /* Espaçamento interno */
+    color: #fff;               /* Texto branco */
+    font-family: "Oswald", system-ui;; /* Fonte limpa e moderna */
+    cursor: pointer;
+    box-sizing: border-box;    /* Garante que padding não ultrapasse a largura */
+}
+#links_paginas {
+    text-decoration: none;
+    color: rgba(0, 255, 0);
+    font-family: "Oswald", system-ui;
+    
+}
+
+summary {
+    font-size: 1.2rem;         /* Tamanho de fonte para destaque */
+    font-weight: bold;         /* Negrito no título */
+    color: #fff;               /* Texto branco para contraste */
+}
+
+details[open] summary {
+    color: #f0f0f0;            /* Branco levemente mais claro ao abrir */
+}
+
+details p {
+    font-size: 1rem;           /* Tamanho de fonte do conteúdo */
+    color: #fff;               /* Texto branco para contraste */
+    margin-top: 10px;          /* Espaço acima do parágrafo */
+}
+.minhas-habilidades p {
+    color: white;
+    text-align: center;
+    font-family: "Oswald", system-ui;
+    
+}
+.guia_do_usuario {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
 }
 
 .minhas-habilidades h1 {
