@@ -19,6 +19,7 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para aprese
 
 ![VS Code](https://img.shields.io/badge/VS_Code-4CAF50?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+![Git](https://img.shields.io/badge/Git-4CAF50?style=for-the-badge&logo=git&logoColor=white)
 ---
 
 # Softwere skills
