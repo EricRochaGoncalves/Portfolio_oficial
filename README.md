@@ -17,7 +17,7 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para aprese
 
 ![Render](https://img.shields.io/badge/Render-4CAF50?style=flat-square&logo=render&logoColor=white)
 
-![VS Code](https://img.shields.io/badge/VS_Code-28B6B0?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-4CAF50?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
