@@ -68,64 +68,23 @@ Você pode acessar o portfólio diretamente através do link na descrição do p
 
 ---
 
-# Notas da atualização DEV III (3.0) - Janeiro de 2025.
 
 ![Atualizações](https://img.shields.io/badge/Atualiza%C3%A7%C3%B5es-FFD700?style=flat-square&logo=sync&logoColor=white&textColor=ffffff)
 ---
 
-1. Melhoria na renderização gráfica:
-Otimizações implementadas para melhorar o carregamento do site, resultando em um aumento significativo no FPS e em uma melhor experiência de navegação, com foco na parte visual e interatividade, características essenciais do meu trabalho front-end.
+# Notas da atualização DEV IV (4.0) - Janeiro de 2025.
 
-2. Melhoria na acessibilidade:
-Ajustes no design e no texto para garantir que qualquer pessoa consiga ler com clareza, incluindo usuários com dificuldades visuais, um aspecto importante do design inclusivo e da experiência do usuário, áreas em que sou especializado.
+1. Melhorias na estilização em geral.
 
-3. Mudanças na estilização geral:
-Alterações realizadas tanto para aprimorar a acessibilidade quanto para trazer maior formalidade ao site, deixando-o mais profissional e visualmente agradável, reforçando minha especialização em front-end e design gráfico.
+2. adição de um texto acima da sessão de habilidades na página inicial, que detalha bem minha aréa de atuação, como eu trabalho, para que servem as técnologias e quais eu uso.
 
-4. Aprimoramento do card inicial:
-Um guia detalhado foi adicionado para orientar o usuário de forma clara e objetiva, indicando onde ele deve ir para explorar o site de forma fluida, uma melhoria voltada para a experiência do usuário (UX).
+3. Adição de um guia abaixo dos cards para orientar o usuário de como navegar entre as páginas.
 
-5. Atualizações na página de habilidades e na página projetos:
-Melhorias na estilização geral e na renderização gráfica, garantindo uma apresentação mais fluida e atrativa das informações, com ênfase na parte visual e interativa do desenvolvimento front-end.
-___
+4. Um botão que leva a uma página que possivel mandar mensagem para mim via email.
 
-# Possíveis Atualizações na Versão DEV IV (4.0)
+5. Atualização na página de projetos, na qual foram adcionadas 3 micro-sessões (tabs) que mostram 5 dos meus projetos.
 
-![Possíveis Atualizações](https://img.shields.io/badge/Poss%C3%ADveis%20Atualiza%C3%A7%C3%B5es-F5F5DC?style=flat-square&logo=sync&logoColor=white&textColor=000000)
-
-1. Micro Sessões na Página de Projetos
-
-Objetivo: Organizar e exibir os projetos de maneira mais segmentada.
-
-Detalhes:
-
-Adicionar micro sessões para cada projeto, focando em diferentes aspectos como desenvolvimento, design e funcionalidades.
-
-Facilitar a navegação e compreensão do trabalho realizado em cada projeto.
-
-
-
-2. Guia Acima dos Cards na Página Inicial
-
-Objetivo: Explicar de forma rápida e objetiva com o que você trabalha.
-
-Detalhes:
-
-Adicionar um pequeno guia logo acima dos cards para informar os visitantes sobre suas áreas de atuação e as tecnologias utilizadas.
-
-A ideia é proporcionar uma visão clara e direta para quem acessa seu portfólio pela primeira vez.
-
-
-
-3. Uso de details e summary na Página Inicial
-
-Objetivo: Organizar e ocultar informações extras sem sobrecarregar visualmente.
-
-Detalhes:
-
-Implementar os elementos HTML details e summary para tornar o conteúdo expandível.
-
-O summary fornecerá uma visão geral, e o conteúdo dentro de details será mostrado ao ser clicado, ajudando a orientar o visitante sobre cada página sem ocupar espaço excessivo.
+6. melhorias na estilização geral da página de projetos.
 
 
 
