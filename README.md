@@ -51,6 +51,7 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para aprese
     <p>APIs (Interfaces de Programação de Aplicações) permitem a comunicação entre diferentes sistemas e a integração de funcionalidades externas ao seu projeto.</p>
   </div>
 </div>
+
 # Softwere skills
 
 ![Atualizações Contínuas](https://img.shields.io/badge/Atualiza%C3%A7%C3%B5es%20Cont%C3%ADnuas-4CAF50?style=flat-square&logo=sync&logoColor=white)
