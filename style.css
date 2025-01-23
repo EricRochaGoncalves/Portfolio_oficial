@@ -280,13 +280,11 @@ body {
 }
 
 #foto img {
-    border-radius: 20%;
+    border-radius: 50%;
 background: linear-gradient(to right, rgba(144, 238, 144, 0.6), rgba(144, 238, 144, 0));/* Verde suave com transparência */;
     border: 2px solid black;
-    border-top: 2px solid rgb(0, 255, 0);
-    border-bottom: 2px solid rgb(0, 255, 0);
-    border-right: 2px solid rgb(0, 255, 0);
-    border-left: 2px solid rgb(0, 255, 0);
+    
+    
 }
 
 .name {
