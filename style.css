@@ -281,7 +281,7 @@ body {
 
 #foto img {
     border-radius: 20%;
-    background: rgba(144, 238, 144, 0.6); /* Verde suave com transparência */;
+background: linear-gradient(to right, rgba(144, 238, 144, 0.6), rgba(144, 238, 144, 0));/* Verde suave com transparência */;
     border: 2px solid black;
     border-top: 2px solid rgb(0, 255, 0);
     border-bottom: 2px solid rgb(0, 255, 0);
@@ -892,7 +892,38 @@ details p {
     line-height: 25px;
     border-bottom: 1px solid white;
 }
+.message-button {
+    padding: 0; /* Remove o padding do botão */
+    background-color: rgba(0, 255, 0);
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    text-align: center; /* Centraliza o texto do link */
+}
 
+.message-button:hover {
+    background-color: darkblue;
+    color: white;
+    transition: 0.5s;
+}
+
+.message-button a {
+    display: block; /* Faz o link ocupar toda a área do botão */
+    width: 100%; /* Garante que ele tenha a largura do botão */
+    height: 100%; /* Garante que ele tenha a altura do botão */
+    color: black;
+    font-size: 20px;
+    font-family: 'PressStart2P', monospace;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px 35px; /* Define o padding dentro do link */
+    box-sizing: border-box; /* Garante que o padding seja incluído no tamanho total */
+}
+
+.message-button a:hover {
+    color: white; /* Garante que a cor do texto mude no hover */
+    transition: 0.5s;
+}
 
 
 
