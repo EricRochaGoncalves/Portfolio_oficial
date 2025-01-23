@@ -73,7 +73,7 @@ body {
     background-color: rgba(71, 71, 71, 0.201);
     justify-content: space-evenly;
     align-items: center;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     position: fixed;
     z-index: 1;
 }
@@ -332,11 +332,13 @@ background: linear-gradient(to right, rgba(144, 238, 144, 0.6), rgba(144, 238, 1
     display: flex;
     width: 50%;
     height: 60%;
+    padding: 0;
     background-color: rgb(3, 188, 3);
     box-shadow: 0px 0px 10px rgb(0, 255, 0);
     justify-content: center;
     align-items: center;
     animation: animation 3s ease-in-out infinite;
+    text-align: center;
 }
 
 #button :hover {
@@ -350,6 +352,10 @@ background: linear-gradient(to right, rgba(144, 238, 144, 0.6), rgba(144, 238, 1
     font-family: "Oswald", system-ui;
     font-size: 20px;
     padding: 10px 51px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .container-002 {
@@ -687,7 +693,7 @@ details p {
     backface-visibility: hidden;
     position: fixed;
     width: 100%;
-    height: 60%;
+    height: auto;
     top: -100%; /* Inicialmente fora da tela */
     right: 0px;
     z-index: 1;
@@ -700,6 +706,7 @@ details p {
 .buttons {
     width: 100%;
     height: 30%;
+    padding: 50px 50px;
 }
 
 .buttons a {
@@ -710,6 +717,7 @@ details p {
     width: 100%;
     height: 15%;
     color: white;
+    padding: 50px 50px;
 }
 
 #nav.active {
@@ -922,6 +930,8 @@ details p {
     color: white; /* Garante que a cor do texto mude no hover */
     transition: 0.5s;
 }
+
+
 
 
 
