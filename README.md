@@ -10,18 +10,47 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para aprese
 
 # Habilidades usadas neste repositório
 
-![HTML](https://img.shields.io/badge/HTML-4CAF50?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-4CAF50?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-4CAF50?style=flat-square&logo=javascript&logoColor=white)
-![Edição de Imagens](https://img.shields.io/badge/Edi%C3%A7%C3%A3o%20de%20Imagens-4CAF50?style=flat-square&logo=photoshop&logoColor=white)
-
-![Render](https://img.shields.io/badge/Render-4CAF50?style=flat-square&logo=render&logoColor=white)
-
-![VS Code](https://img.shields.io/badge/VS_Code-4CAF50?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-![Git](https://img.shields.io/badge/Git-4CAF50?style=for-the-badge&logo=git&logoColor=white)
----
-
+<div style="text-align: center;">
+  <div>
+    <img src="https://img.shields.io/badge/HTML-4CAF50?style=flat-square&logo=html5&logoColor=white" alt="HTML">
+    <p>O HTML é a base de toda estrutura de um site, e é utilizado para definir o conteúdo e os elementos das páginas.</p>
+  </div>
+  
+  <div>
+    <img src="https://img.shields.io/badge/CSS-4CAF50?style=flat-square&logo=css3&logoColor=white" alt="CSS">
+    <p>CSS é a linguagem usada para definir a aparência visual dos elementos no HTML, como cores, fontes e layouts.</p>
+  </div>
+  
+  <div>
+    <img src="https://img.shields.io/badge/JavaScript-4CAF50?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript">
+    <p>JavaScript é a linguagem de programação usada para adicionar interatividade e funcionalidades dinâmicas nas páginas web.</p>
+  </div>
+  
+  <div>
+    <img src="https://img.shields.io/badge/Edi%C3%A7%C3%A3o%20de%20Imagens-4CAF50?style=flat-square&logo=photoshop&logoColor=white" alt="Edição de Imagens">
+    <p>Habilidades em edição de imagens, essenciais para criar designs atraentes e otimizar elementos visuais.</p>
+  </div>
+  
+  <div>
+    <img src="https://img.shields.io/badge/Render-4CAF50?style=flat-square&logo=render&logoColor=white" alt="Render">
+    <p>Render é uma plataforma de hospedagem para deploy de projetos de forma simples e rápida.</p>
+  </div>
+  
+  <div>
+    <img src="https://img.shields.io/badge/VS_Code-4CAF50?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+    <p>VS Code é um editor de código amplamente utilizado por desenvolvedores para criar, depurar e editar código de maneira eficiente.</p>
+  </div>
+  
+  <div>
+    <img src="https://img.shields.io/badge/Git-4CAF50?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+    <p>Git é uma ferramenta de controle de versão que ajuda a gerenciar o histórico de alterações de projetos e facilita o trabalho em equipe.</p>
+  </div>
+  
+  <div>
+    <img src="https://img.shields.io/badge/API-4CAF50?style=flat-square&logo=api&logoColor=white" alt="API">
+    <p>APIs (Interfaces de Programação de Aplicações) permitem a comunicação entre diferentes sistemas e a integração de funcionalidades externas ao seu projeto.</p>
+  </div>
+</div>
 # Softwere skills
 
 ![Atualizações Contínuas](https://img.shields.io/badge/Atualiza%C3%A7%C3%B5es%20Cont%C3%ADnuas-4CAF50?style=flat-square&logo=sync&logoColor=white)
