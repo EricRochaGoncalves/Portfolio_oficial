@@ -8,7 +8,7 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para aprese
 
 ---
 
-# Habilidades usadas neste repositório
+# Habilidades usadas neste softwere
 
 <div style="text-align: center;">
   <div>
