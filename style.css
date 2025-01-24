@@ -87,29 +87,29 @@ body {
     font-family: Roboto;
     border-right: 1px solid white;
     
-    position: relative; /* Necessário para posicionar o pseudo-elemento */
+    position: relative; 
 }
 
 #button-contact a {
     color: white;
     text-decoration: none;
     font-family: "Oswald", system-ui;
-    position: relative; /* Necessário para o hover funcionar no elemento */
+    position: relative; 
 }
 
 #button-contact a::after {
     content: '';
     position: absolute;
-    bottom: -2px; /* Localização da linha */
+    bottom: -2px; 
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: rgb(0, 255, 0); /* Cor da linha */
+    background-color: rgb(0, 255, 0); 
     transition: width 0.5s ease-in-out;
 }
 
 #button-contact a:hover::after {
-    width: 100%; /* A linha cresce ao passar o mouse */
+    width: 100%; 
 }
 
 @keyframes animation {
@@ -203,7 +203,7 @@ body {
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    position: relative; /* Necessário para o pseudo-elemento funcionar */
+    position: relative; 
 }
 
 .buttons a {
@@ -213,27 +213,27 @@ body {
     font-weight: 300;
     font-size: 15px;
     
-    position: relative; /* Necessário para posicionar o pseudo-elemento */
-    transition: color 0.3s ease-in-out; /* Transição suave para mudança de cor */
+    position: relative; 
+    transition: color 0.3s ease-in-out;  
 }
 
 .buttons a:hover {
-    color: rgb(0, 255, 0); /* Cor do texto ao passar o mouse */
+    color: rgb(0, 255, 0); 
 }
 
 .buttons a::after {
     content: '';
     position: absolute;
-    bottom: -2px; /* Localização da linha animada */
+    bottom: -2px; 
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: rgb(0, 255, 0); /* Cor da linha */
-    transition: width 0.5s ease-in-out; /* Suavidade do efeito */
+    background-color: rgb(0, 255, 0); 
+    transition: width 0.5s ease-in-out; 
 }
 
 .buttons a:hover::after {
-    width: 100%; /* Linha cresce até 100% no hover */
+    width: 100%; 
 }
 
 .container-001 {
@@ -281,7 +281,7 @@ body {
 
 #foto img {
     border-radius: 50%;
-background: linear-gradient(to right, rgba(144, 238, 144, 0.6), rgba(144, 238, 144, 0));/* Verde suave com transparência */;
+background: linear-gradient(to right, rgba(144, 238, 144, 0.6), rgba(144, 238, 144, 0));
     border: 2px solid black;
     
     
@@ -376,13 +376,13 @@ background: linear-gradient(to right, rgba(144, 238, 144, 0.6), rgba(144, 238, 1
     flex-wrap: wrap;
 }
 details {
-    width: 100%;               /* Ocupa toda a largura disponível */
-    background-color: #1c1c1c; /* Fundo do detalhe para diferenciar do fundo geral */
-    border: 1px solid #333;    /* Borda sutil para destacar */
-    border-radius: 5px;        /* Bordas arredondadas */
-    margin: 10px 0;            /* Espaçamento entre os itens */
-    padding: 10px;             /* Espaçamento interno */
-    color: #fff;               /* Texto branco */
+    width: 100%;                
+    background-color: #1c1c1c;  
+    border: 1px solid #333;    
+    border-radius: 5px;        
+    margin: 10px;
+    padding: 10px;            
+    color: #fff;             
     font-family: "Oswald", system-ui;; /* Fonte limpa e moderna */
     cursor: pointer;
     box-sizing: border-box;    /* Garante que padding não ultrapasse a largura */
