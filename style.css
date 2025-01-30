@@ -875,6 +875,13 @@ details p {
     opacity: 1; /* Inicia com opacidade 1 */
     transition: opacity 0.5s ease-out; /* Define o tempo e o estilo da transição */
 }
+@media (min-width: 728px) {
+    .card {
+        width: 50%;
+    }
+
+}
+
 
 .card.fade-out {
     opacity: 0; /* Torna o card invisível */
