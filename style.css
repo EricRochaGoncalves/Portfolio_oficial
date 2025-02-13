@@ -365,13 +365,13 @@ background: linear-gradient(to right, rgba(144, 238, 144, 0.6), rgba(144, 238, 1
     width: 100%;
     height: auto;
     flex-wrap: wrap;
-    justify-content: cente
+    justify-content: center;
 }
 
 .minhas-habilidades {
     display: flex;
-    width: 100%;
-    height: 30%;
+    width: 50%;
+    height: auto;
     border: transparent;
     justify-content: center;
     align-items: center;
@@ -800,6 +800,10 @@ details p {
         align-items: center;
         padding: 5px 5px;
     }
+    .minhas-habilidades {
+        
+        width: 90%;
+    }
 
     .minhas-habilidades h1 {
         font-size: 22px;
@@ -939,6 +943,8 @@ details p {
     color: white; /* Garante que a cor do texto mude no hover */
     transition: 0.5s;
 }
+
+
 
 
 
