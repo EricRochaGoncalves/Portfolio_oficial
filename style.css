@@ -301,6 +301,7 @@ background: linear-gradient(to right, rgba(144, 238, 144, 0.6), rgba(144, 238, 1
     font-family: "Arial", system-ui;
     font-weight: 600;
     font-size: 25px;
+    letter-spacing: 1.7px;
 }
 
 .intro-text {
