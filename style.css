@@ -26,6 +26,9 @@ body {
     border: transparent;
     
 }
+.details_01 {
+    color: red;
+}
 
 
 
@@ -685,6 +688,9 @@ details p {
 @media screen and (max-width: 768px) {
     #btn-mobile {
         display: block;
+        position: fixed;
+        z-index: 1;
+        right: 0;
         
     }
 
@@ -697,6 +703,7 @@ details p {
     position: fixed;
     width: 100%;
     height: auto;
+        border-top: 5px solid rgba(0, 255,0 );
     top: -100%; /* Inicialmente fora da tela */
     right: 0px;
     z-index: 1;
