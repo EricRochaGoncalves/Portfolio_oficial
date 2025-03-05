@@ -34,6 +34,31 @@ document.getElementById('cardOverlay').addEventListener('click', function(event)
     }
 });
 
+document.getElementById("hideCardCheckbox").addEventListener("change", function () {
+    const cardOverlay = document.getElementById("cardOverlay");
+
+    // Fecha o modal se o checkbox for marcado
+    if (this.checked) {
+        cardOverlay.style.display = "none";
+        localStorage.setItem("hideCard", "true"); // Salva a preferência do usuário
+    } else {
+        localStorage.setItem("hideCard", "false"); // Atualiza a preferência quando desmarcado
+    }
+});
+
+// Verifica a preferência ao carregar a página e oculta o card se a preferência for salva
+window.onload = function() {
+    const cardOverlay = document.getElementById("cardOverlay");
+    const hideCard = localStorage.getItem("hideCard");
+
+    // Se a preferência for salva como "true", oculta o card
+    if (hideCard === "true") {
+        cardOverlay.style.display = "none";
+    } else {
+        cardOverlay.style.display = "flex"; // Exibe o card se a preferência for "false" ou não estiver salva
+    }
+};
+
 // Seleciona todos os links de navegação
 const navLinks = document.querySelectorAll('nav a');
 
