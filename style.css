@@ -81,7 +81,7 @@ body {
     z-index: 1;
 }
 
-#button-contact {
+#button-home {
     display: flex;
     width: 10%;
     height: 50%;
@@ -93,26 +93,31 @@ body {
     position: relative; 
 }
 
-#button-contact a {
+#button-home a {
     color: white;
     text-decoration: none;
     font-family: "Oswald", system-ui;
     position: relative; 
 }
 
-#button-contact a::after {
+#button-home a::after {
     content: '';
     position: absolute;
     bottom: -2px; 
     left: 0;
     width: 0%;
     height: 2px;
+    
     background-color: rgb(0, 255, 0); 
     transition: width 0.5s ease-in-out;
 }
 
-#button-contact a:hover::after {
+#button-home a:hover::after {
     width: 100%; 
+    
+}
+#button-home a:hover{
+    color: rgba(0, 255, 0);
 }
 
 @keyframes animation {
@@ -703,7 +708,9 @@ details p {
     position: fixed;
     width: 100%;
     height: auto;
+        background-color: black;
         border-top: 5px solid rgba(0, 255,0 );
+        border-bottom: 5px solid rgba(0, 255,0 );
     top: -100%; /* Inicialmente fora da tela */
     right: 0px;
     z-index: 1;
@@ -721,13 +728,17 @@ details p {
 
 .buttons a {
     color: white;
+    font-size: 20px;
+    letter-spacing: 1.3px;
 }
 
-#button-contact {
+#button-home {
     width: 100%;
     height: 15%;
     color: white;
-    padding: 50px 50px;
+    padding: 25px 25px;
+    font-size: 20px;
+    letter-spacing: 1.3px;
 }
 
 #nav.active {
@@ -799,7 +810,8 @@ details p {
     }
 
     .intro-text p {
-        font-size: 15px;
+        font-size: 17.5px;
+        color: white;
     }
 
     .intro-buttons {
