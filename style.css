@@ -694,7 +694,8 @@ details p {
     #btn-mobile {
         display: block;
         position: fixed;
-        z-index: 1;
+        z-index: 2;
+        top: 10;
         right: 0;
         
     }
@@ -709,10 +710,10 @@ details p {
     width: 100%;
     height: auto;
         background-color: black;
-        border-top: 5px solid rgba(0, 255,0 );
+        border-top: 5px solid black;
         border-bottom: 5px solid rgba(0, 255,0 );
     top: -100%; /* Inicialmente fora da tela */
-    right: 0px;
+    right: 0;
     z-index: 1;
     flex-wrap: wrap;
     overflow: hidden;
@@ -744,10 +745,11 @@ details p {
 #nav.active {
     display: block;
     justify-content: center;
-    top: 70px; 
+    top: 0; 
     opacity: 1;
     
 }
+    
 
     .container-001 {
         flex-direction: column-reverse;
