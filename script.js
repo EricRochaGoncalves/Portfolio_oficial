@@ -60,7 +60,7 @@ window.onload = function() {
 };
 
 // Seleciona todos os links de navegação
-const navLinks = document.querySelectorAll('nav a');
+const navLinks = document.querySelectorAll('[href]');
 
 // Função de rolagem suave
 navLinks.forEach(link => {
@@ -70,10 +70,11 @@ navLinks.forEach(link => {
         // Obtém o ID do link (exemplo: "#home")
         const targetSection = document.querySelector(this.getAttribute('href'));
 
-        // Rolagem suave até a seção correspondente
-        targetSection.scrollIntoView({
-            behavior: 'smooth'
-        });
+        // Verifica se a seção alvo existe antes de rolar
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     });
 });
-
