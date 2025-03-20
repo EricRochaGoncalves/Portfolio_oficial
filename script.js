@@ -60,7 +60,7 @@ window.onload = function() {
 };
 
 // Seleciona todos os links de navegação
-const navLinks = document.querySelectorAll('[href]');
+const navLinks = document.querySelectorAll('nav a');
 
 // Função de rolagem suave
 navLinks.forEach(link => {
