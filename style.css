@@ -549,6 +549,8 @@ details p {
     width: 40%;
     height: 100%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #frente-01-img-bd {
@@ -558,6 +560,7 @@ details p {
     height: 100%;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 #frente-01-img-bd img {
