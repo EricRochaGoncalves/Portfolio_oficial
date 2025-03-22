@@ -60,21 +60,26 @@ window.onload = function() {
 };
 
 // Seleciona todos os links de navegação
-const navLinks = document.querySelectorAll('nav a');
+
+// Seleciona todos os links de navegação
+const navLinks = document.querySelectorAll('[href]');
 
 // Função de rolagem suave
 navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
-        e.preventDefault(); // Previne o comportamento padrão do link
+        // Verifica se o href começa com "#"
+        if (this.getAttribute('href').startsWith('#')) {
+            e.preventDefault(); // Previne o comportamento padrão
 
-        // Obtém o ID do link (exemplo: "#home")
-        const targetSection = document.querySelector(this.getAttribute('href'));
+            // Obtém a seção de destino
+            const targetSection = document.querySelector(this.getAttribute('href'));
 
-        // Verifica se a seção alvo existe antes de rolar
-        if (targetSection) {
-            targetSection.scrollIntoView({
-                behavior: 'smooth'
-            });
+            // Rolagem suave até a seção correspondente
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
         }
     });
 });
