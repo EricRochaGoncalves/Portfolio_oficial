@@ -684,8 +684,9 @@ details p {
 .cards-buttons a {
     color: black;
     font-family: "Oswald", system-ui;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
+    padding: 15px 15px;
 }
 
 .cards-buttons :hover {
